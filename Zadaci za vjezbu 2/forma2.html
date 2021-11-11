@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {border: darkgrey;
+        border-style: dotted;}
+        td {border: darkgray;
+        border-style: double;}
+        #button {border: white;
+        border: 0cm;
+        text-align: right;}
+    </style>
+</head>
+<body>
+    <table id="tabela">
+        <caption>Pizza shop 2.0</caption>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" maxlength="20"></td>
+        </tr>
+        <tr>
+            <td>Pizza Topping</td>
+            <td>
+                <input type="radio" name="prilog" id="prilog" value="kecap">
+                <label for="kecap">Kecap</label><br>
+                <input type="radio" name="prilog" id="prilog" value="majonez">
+                <label for="majonez">Majonez</label><br>
+                <input type="radio" name="prilog" id="prilog" value="senf">
+                <label for="senf">Senf</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Pizza Sauce</td>
+            <td>
+                <select name="sos">
+                    <option value="pelat">Pelat</option>
+                    <option value="luk">Luk</option>
+                    <option selected value="ljuti_sos">Ljuti sos</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Optional Extras</td>
+            <td> 
+                <input type="checkbox" name="extras1" id="extras1" value="extra_cheese">
+                <label for="extra_cheese">Extra Cheese</label>
+                <input type="checkbox" name="extras2" id="extras2" value="gluten_free_base">
+                <label for="gluten_free_base">Gluten Free Base<label>
+             
+             </td>
+             
+        </tr>
+       
+        <tr>
+            <td colspan="2">
+               <p>Delivery Instruction</p>
+               <textarea maxlength="100" required></textarea>
+            </td>
+        </tr>
+        <tr>
+           <td id="button" colspan="2"> <button>Send Order</button> </td>
+        </tr>
+       
+    </table>
+</body>
+</html>

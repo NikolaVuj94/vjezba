@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Document</title>
+
+    <style>
+        p{ 
+            border: darkgray;
+            border-style: dotted;
+           
+        }
+        img {
+            width:5cm ;
+            height: 5cm;
+        }
+        table{border:darkgray 2px solid;}
+        td {border: black 1px  solid;}
+    </style>
+</head>
+<body>
+    <div class="topnav" id="task_1">
+        <a class="active" href="#task_1">Home</a>
+        <a class="task_2" href="#task_2">Zadatak 2</a>
+    </div>
+    <div id="task_2">
+        
+        <h1>Curriculum vitae</h1>
+        <img src="/home/nikola/Html i Css/Predavanje 1/Zadaci za vjezbu 3/Nikola.JPG" alt="Slika">
+        <fieldset>
+       
+            <Legend>Osnovni podaci</Legend>
+            <label for="ime_prezime">Ime i Prezime</label>
+            <input type="text" name="osnovni_podaci" id="ime_prezime" value="Nikola Vujosevic"><br>
+            <label for="datum">Datum rodjenja</label>
+            <input type="text" name="osnovni_podaci" id="datum" value="02.08.1994."><br>
+            <label for="adresa">Adresa stanovanja</label>
+            <input type="text" name="osnovni_podaci" id="adresa" value="Svetog Petra Cetinjskog 13"><br>
+            <label for="telefon">Broj telefona</label>
+            <input type="tel" name="osnovni_podaci" id="telefon" value="+38267135352"><br>
+            <td>Pol</td>
+            <input type="text" name="osnovni_podaci" id="pol" value="muski">
+        </fieldset>
+
+        <fieldset>
+            <legend>Prethodno radno iskustvo</legend>
+            <fieldset>
+            <legend>Menadzer prodavnice</legend>
+            <p class="radno_iskustvo" id="legend">Organisation and monitoring of all actions in the store, including operational, commercial and HR
+                duties. Operational duties includes organisation of deliveries with external cooperations to the
+                shooping mall. Organisation of employees for opening, alarming and exposing articles from delivery.
+                Also monitoring of replenishment of the store respecting all commercial rules that company requires.
+                Organisation and monitoring of hygiene in the store. Commercial duties includes monitoring of
+                exposing new articles and collection in store, review commercial reports and position of best selling
+                articles. Checking articles and prizes in window of the store. Checking position of collets, tables and
+                hangers in store according to company rules. HR duties are to train, evaluate and motivate
+                employees. Evaluating their knowledge every 3 months. Beside working with employees, store
+                manager has to monitor and review all input and output documents, keeping a trade book and sending
+                reports to company director regarding all topics above.</p></fieldset>
+                <fieldset>
+                    <legend>Menadzer sektora</legend>
+                    <p>Organization and verification of all actions in the shop, including operational, commercial and HR
+                        duties. Operational duties included monitoring of the delivery organization, monitoring of the report on
+                        sales-related supplementation, organizing the stockroom, etc. Commercial commitments included
+                        market analysis, reports on sales, monitoring of collections and quality of goods, price adjustments,
+                        and similar. HR duties were related to making daily, weekly and monthly personnel schedules, both in
+                        the Men sector and within the whole store, monitoring of training of all employees, work with
+                        potentials, interviews with candidates, etc. Communication with the shop manager and product
+                        manager from Spain on daily basis.</p>
+
+                       
+                </fieldset>
+                <fieldset>
+                    <legend>Komercijalista</legend>
+                    <p>Monitoring and producing sales reports on a daily basis, sending feedback on sales impacts and
+                        products needed to improve sales, communicating with regional commercialist and product manager
+                        from Spain. Also, I was in charge for making plans for the rotation of collections on a weekly basis,
+                        tracking the need for replenishing sold items, setting collections for windows with a manager and
+                        window dresser and training for potential salespeople, etc.</p>
+                </fieldset>
+        </fieldset>
+    </div>
+    <div id="task_3">
+
+        <table>
+            <caption>Omiljeni filmovi:</caption><br>
+            <tr>
+                <td>Ime filma</td>
+                <td>Opis</td>
+                <td>Zanr</td>
+                <td>datum izlaska</td>
+                <td>IMDB trailer</td>
+            </tr>
+            <tr>
+                <td>The Shawshank Redemption</td>
+                <td>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</td>
+                <td>Drama</td>
+                <td>05.10.1994.</td>
+                <td>
+                    <a href="https://www.imdb.com/title/tt0111161/?ref_=adv_li_tt">Imdb trailer</a>
+                </td>
+            </tr>
+
+
+        </table>
+
+
+
+    </div>
+
+</body>
+</html>
